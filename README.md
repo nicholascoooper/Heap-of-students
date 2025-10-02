@@ -2,25 +2,41 @@
 classDiagram
 
     class Address{
-        +string street;
-        +string city;
-        +string state;
-        +int zip;    
+        #string street;
+        #string city;
+        #string state;
+        #string zip;
+        +Address();
+        +void init(street, city, state, zip);
+        +void printAddress();
     } 
     
     class Date{
-        +int month;
-        +int day;
-        +int year;
+        #string fullDate;
+        #int month;
+        #int day;
+        #int year;
+        +Date();
+        +void init(fullDate);
+        +void printDate();
+        
     }
 
     class Student{
-    +string firstName;
-    +string lastName;
-    +string address;
-    +string birthDate;
-    +string gradDate;
-    +int credits;
+        #string fullStudent;
+        #string firstName;
+        #string lastName;
+        #Address* address;
+        #Date* birthDate;
+        #Date* gradDate;
+        #int credits;
+        +student();
+        +~student();
+        void init(fullStudent);
+        void printStudent();
+        string getFirstName();
+        string getLastName();
+        int getCreditHours();
     }
 
 Student o-- Date
