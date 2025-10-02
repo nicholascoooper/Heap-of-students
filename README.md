@@ -24,6 +24,6 @@ classDiagram
     }
 
 Student o-- Date
-Student 0-- Address
+Student o-- Address
 
  ```
