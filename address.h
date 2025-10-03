@@ -9,8 +9,8 @@ class Address{
 		std::string zip;
 	public:
 		Address();
-		void init(string, city, state, zip);
-		void printAdress();
+		void init(std::string string, std::string city, std::string state, std::string zip);
+		void printAddress();
 };
 
 #endif
