@@ -5,13 +5,13 @@
 #include "date.h"
 
 Date::Date(){
-	Date::fullDate = " "
+	Date::fullDate = " ";
 	Date::month = 0;
 	Date::day = 0;
 	Date::year = 0;
 }
 
-void Date::init(fullDate){
+void Date::init(std::string fullDate){
 	Date::month = 
 }
 

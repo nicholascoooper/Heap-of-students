@@ -3,13 +3,13 @@
 
 class Date{
 	protected:
-		string fullDate;
+		std::string fullDate;
 		int month;
 		int day;
 		int year;
 	public:
 		Date();
-		void init(fullDate);
+		void init(std::string fullDate);
 		void printDate();
 
 };
