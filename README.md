@@ -137,8 +137,44 @@ date.o
 student.o
 
 
+PART 2
 
+in main.cpp:
+bool keepgoing
+create student vector
 
+loadStudent(){
+    while keepgoing{
+        create inFile with ifstream
+        open infile with students.csv
+        create new student on heap
+        append new student to vector
+        close infile
+        keepgoning false
+
+printStudent(){
+    cout fullStudent
+
+cout please choose an option
+0 quit
+1 print all student names
+2 print all student data
+3 find a student
+
+if 0{
+    clear heap
+    close infile
+    exit program
+
+elseif 1{
+    while keepgoing{
+        
+
+elseif 2{
+    while keepgoing{
+
+elseif 3{
+    
 
 
 
