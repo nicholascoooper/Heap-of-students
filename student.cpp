@@ -3,7 +3,7 @@
 #include <fstream>
 #include <iostream>
 #include "student.h"
-
+/*
 Student::Student(){
 	Student::fullStudent = " ";
 	Student::firstName = " ";
@@ -29,7 +29,7 @@ void Student::init(fullStudent){
 void Student::printStudent(){
 	std::cout<<fullStudent;
 }
-
+*/
 
 
 

@@ -1,12 +1,13 @@
+/*
 #ifndef STUDENT_H_EXIST
 #define STUDENT_H_EXIST
 
 class Studet{
 	protected:
-		string fullStudent;
-		string firstName;
-		string lastName;
-		Address* address;
+		std::string fullStudent;
+		std::string firstName;
+		std::string lastName;
+		std::Address* address;
 		Date* birthDate;
 		Date* gradDate;
 		int credits;
@@ -15,9 +16,10 @@ class Studet{
 		~student();
 		void init(fullStudent);
 		void printStudent();
-		string getFirstName();
-		string getLastName();
+		std::string getFirstName();
+		std::string getLastName();
 		int getCreditHours();
 };
 
 #endif
+*/

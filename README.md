@@ -155,6 +155,7 @@ loadStudent(){
 printStudent(){
     cout fullStudent
 
+while keepgoing{
 cout please choose an option
 0 quit
 1 print all student names
@@ -164,17 +165,24 @@ cout please choose an option
 if 0{
     clear heap
     close infile
+    keepgoing false
     exit program
 
 elseif 1{
-    while keepgoing{
-        
+    for each student
+        printStudent firstname lastname    
 
 elseif 2{
-    while keepgoing{
+    for each student 
+        print fullstduent data
 
 elseif 3{
-    
+    cout please enter a last name
+        searchlastname
+            go through each student
+              string.find(searchlastname)
+        
+delete stduent off heap       
 
 
 
