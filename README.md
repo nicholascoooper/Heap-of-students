@@ -142,6 +142,9 @@ PART 2
 in main.cpp:
 bool keepgoing
 create student vector
+includes
+
+
 
 loadStudent(){
     while keepgoing{
@@ -152,15 +155,34 @@ loadStudent(){
         close infile
         keepgoning false
 
-printStudent(){
-    cout fullStudent
+showStudentNames(vector){
+    for Studennt : students
+        coutlatname firstname
 
+
+printStudents(vector){
+    for Students : student
+        printFullRecord()
+
+findStudent(vector){
+    cout enter last name of student
+    getline cin key
+    found =false
+    for Stusents : student
+        if(getlastname .find(key)
+            printFullRecord
+            found = true
+    if !found
+        cout no matching students
+
+menu(){
+    cout 0 quit 1 print all student name 2 print all student data 3 find a student
+    getline cin choice
+    return choice
+
+main(){
 while keepgoing{
-cout please choose an option
-0 quit
-1 print all student names
-2 print all student data
-3 find a student
+    menu()
 
 if 0{
     clear heap
@@ -184,6 +206,6 @@ elseif 3{
         
 delete stduent off heap       
 
-
+:
 
 0

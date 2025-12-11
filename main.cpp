@@ -44,7 +44,7 @@ void showStudentNames(const vector<Student>& students) {
 void printStudents(const vector<Student>& students) {
     for (const Student& s : students) {
         s.printFullRecord();
-        cout << "____________________________________\n";
+        cout << "_____\n";
     }
 }
 
